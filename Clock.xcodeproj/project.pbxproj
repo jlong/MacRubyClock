@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6804808138E08B200798AE1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6804807138E08B200798AE1 /* Cocoa.framework */; };
+		B680480A138E08B200798AE1 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6804809138E08B200798AE1 /* MacRuby.framework */; };
+		B6804811138E08B200798AE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B680480F138E08B200798AE1 /* InfoPlist.strings */; };
+		B6804814138E08B200798AE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6804813138E08B200798AE1 /* main.m */; };
+		B6804818138E08B200798AE1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6804816138E08B200798AE1 /* MainMenu.xib */; };
+		B680481B138E08B200798AE1 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = B680481A138E08B200798AE1 /* rb_main.rb */; };
+		B680481D138E08B200798AE1 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = B680481C138E08B200798AE1 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6804803138E08B200798AE1 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6804807138E08B200798AE1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B6804809138E08B200798AE1 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		B680480E138E08B200798AE1 /* Clock-Info.plist */ = {isa = PBXFileReference; path = "Clock-Info.plist"; sourceTree = "<group>"; };
+		B6804810138E08B200798AE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6804812138E08B200798AE1 /* Clock-Prefix.pch */ = {isa = PBXFileReference; path = "Clock-Prefix.pch"; sourceTree = "<group>"; };
+		B6804813138E08B200798AE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6804817138E08B200798AE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B680481A138E08B200798AE1 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		B680481C138E08B200798AE1 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6804800138E08B200798AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6804808138E08B200798AE1 /* Cocoa.framework in Frameworks */,
+				B680480A138E08B200798AE1 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B68047F8138E08B200798AE1 = {
+			isa = PBXGroup;
+			children = (
+				B680480C138E08B200798AE1 /* Clock */,
+				B6804806138E08B200798AE1 /* Frameworks */,
+				B6804804138E08B200798AE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6804804138E08B200798AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6804803138E08B200798AE1 /* Clock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6804806138E08B200798AE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6804807138E08B200798AE1 /* Cocoa.framework */,
+				B6804809138E08B200798AE1 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B680480C138E08B200798AE1 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				B680481C138E08B200798AE1 /* AppDelegate.rb */,
+				B6804815138E08B200798AE1 /* Resources */,
+				B6804819138E08B200798AE1 /* Other Sources */,
+				B680480D138E08B200798AE1 /* Supporting Files */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		B680480D138E08B200798AE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B680480E138E08B200798AE1 /* Clock-Info.plist */,
+				B680480F138E08B200798AE1 /* InfoPlist.strings */,
+				B6804812138E08B200798AE1 /* Clock-Prefix.pch */,
+				B6804813138E08B200798AE1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6804815138E08B200798AE1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6804816138E08B200798AE1 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B6804819138E08B200798AE1 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B680481A138E08B200798AE1 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		B680480B138E08B200798AE1 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = B6804823138E08B200798AE1 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		B6804802138E08B200798AE1 /* Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6804820138E08B200798AE1 /* Build configuration list for PBXNativeTarget "Clock" */;
+			buildPhases = (
+				B68047FF138E08B200798AE1 /* Sources */,
+				B6804800138E08B200798AE1 /* Frameworks */,
+				B6804801138E08B200798AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clock;
+			productName = Clock;
+			productReference = B6804803138E08B200798AE1 /* Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B68047FA138E08B200798AE1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B68047FD138E08B200798AE1 /* Build configuration list for PBXProject "Clock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B68047F8138E08B200798AE1;
+			productRefGroup = B6804804138E08B200798AE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6804802138E08B200798AE1 /* Clock */,
+				B680480B138E08B200798AE1 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6804801138E08B200798AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6804811138E08B200798AE1 /* InfoPlist.strings in Resources */,
+				B6804818138E08B200798AE1 /* MainMenu.xib in Resources */,
+				B680481B138E08B200798AE1 /* rb_main.rb in Resources */,
+				B680481D138E08B200798AE1 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B68047FF138E08B200798AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6804814138E08B200798AE1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B680480F138E08B200798AE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6804810138E08B200798AE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6804816138E08B200798AE1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6804817138E08B200798AE1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B680481E138E08B200798AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B680481F138E08B200798AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B6804821138E08B200798AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clock/Clock-Prefix.pch";
+				INFOPLIST_FILE = "Clock/Clock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6804822138E08B200798AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clock/Clock-Prefix.pch";
+				INFOPLIST_FILE = "Clock/Clock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B6804824138E08B200798AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		B6804825138E08B200798AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B68047FD138E08B200798AE1 /* Build configuration list for PBXProject "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B680481E138E08B200798AE1 /* Debug */,
+				B680481F138E08B200798AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6804820138E08B200798AE1 /* Build configuration list for PBXNativeTarget "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6804821138E08B200798AE1 /* Debug */,
+				B6804822138E08B200798AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6804823138E08B200798AE1 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6804824138E08B200798AE1 /* Debug */,
+				B6804825138E08B200798AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B68047FA138E08B200798AE1 /* Project object */;
+}
