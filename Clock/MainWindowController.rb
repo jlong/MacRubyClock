@@ -10,6 +10,7 @@ class MainWindowController < NSWindowController
   attr_accessor :label
   
   def awakeFromNib
+    tick
     @timer = NSTimer.scheduledTimerWithTimeInterval(0.25, target:self, selector: :tick, userInfo:nil, repeats:true)
   end
   
