@@ -3,7 +3,6 @@
 #  Clock
 #
 #  Created by John W. Long on 5/26/11.
-#  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 #
 
 # Loading the Cocoa framework. If you need to load more frameworks, you can

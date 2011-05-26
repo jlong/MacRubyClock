@@ -14,19 +14,21 @@
 		B6804818138E08B200798AE1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6804816138E08B200798AE1 /* MainMenu.xib */; };
 		B680481B138E08B200798AE1 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = B680481A138E08B200798AE1 /* rb_main.rb */; };
 		B680481D138E08B200798AE1 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = B680481C138E08B200798AE1 /* AppDelegate.rb */; };
+		B6804827138E0B1C00798AE1 /* MainWindowController.rb in Resources */ = {isa = PBXBuildFile; fileRef = B6804826138E0B1C00798AE1 /* MainWindowController.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B6804803138E08B200798AE1 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6804807138E08B200798AE1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B6804809138E08B200798AE1 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
-		B680480E138E08B200798AE1 /* Clock-Info.plist */ = {isa = PBXFileReference; path = "Clock-Info.plist"; sourceTree = "<group>"; };
+		B680480E138E08B200798AE1 /* Clock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clock-Info.plist"; sourceTree = "<group>"; };
 		B6804810138E08B200798AE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B6804812138E08B200798AE1 /* Clock-Prefix.pch */ = {isa = PBXFileReference; path = "Clock-Prefix.pch"; sourceTree = "<group>"; };
+		B6804812138E08B200798AE1 /* Clock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clock-Prefix.pch"; sourceTree = "<group>"; };
 		B6804813138E08B200798AE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6804817138E08B200798AE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B680481A138E08B200798AE1 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		B680481C138E08B200798AE1 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		B6804826138E0B1C00798AE1 /* MainWindowController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MainWindowController.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				B6804816138E08B200798AE1 /* MainMenu.xib */,
+				B6804826138E0B1C00798AE1 /* MainWindowController.rb */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				B6804818138E08B200798AE1 /* MainMenu.xib in Resources */,
 				B680481B138E08B200798AE1 /* rb_main.rb in Resources */,
 				B680481D138E08B200798AE1 /* AppDelegate.rb in Resources */,
+				B6804827138E0B1C00798AE1 /* MainWindowController.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

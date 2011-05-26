@@ -3,7 +3,6 @@
 //  Clock
 //
 //  Created by John W. Long on 5/26/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
